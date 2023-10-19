@@ -1,0 +1,10 @@
+<div class="home_container">
+    <app-card
+    *ngFor="let imageURl of imageURls; let i = index" 
+    [imageURl]="imageURl"
+    [titleCard]="titleCards[i]"
+    [console]="consoles[i]"
+    [price]="prices[i]"
+    [labelTitle]="labelTitles[i]"
+    ></app-card>
+</div>
